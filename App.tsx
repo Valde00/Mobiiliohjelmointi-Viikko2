@@ -14,7 +14,6 @@ export default function App() {
       <Modal
         visible={modalVisible}
         transparent
-        animationType='slide'
       >
         <View style={styles.modal}>
           <View style={styles.content}>
@@ -48,7 +47,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     padding: 20,
     width: 300,
-    height: 200,
+    height: 300,
     justifyContent: 'space-between',
   },
   modalText: {
